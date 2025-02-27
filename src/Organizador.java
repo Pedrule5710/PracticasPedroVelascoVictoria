@@ -42,3 +42,12 @@ public class Organizador {
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
     }
+    @Override
+    public String toString() {
+        return "Organizador{" +
+               "nombre='" + nombre + '\'' +
+               ", email='" + email + '\'' +
+               ", telefono='" + telefono + '\'' +
+               '}';
+    }
+}
