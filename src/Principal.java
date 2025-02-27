@@ -8,7 +8,7 @@ public class Principal {
 	public static void main(String [] args) {
 
 		ArrayList<Organizador> Organizadores = new ArrayList<>();
-		ArrayList<Evento> eventos = new ArrayList<>();
+		ArrayList<Eventos> eventos = new ArrayList<>();
 		ArrayList<Usuario> usuarios = new ArrayList<>();
 		Organizador admin = new Organizador("Admin", "12345", "1234", "1234");
 		Organizadores.add(admin);
