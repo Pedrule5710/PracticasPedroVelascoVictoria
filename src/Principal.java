@@ -10,7 +10,7 @@ public class Principal {
 		ArrayList<Organizador> Organizadores = new ArrayList<>();
 		ArrayList<Evento> eventos = new ArrayList<>();
 		ArrayList<Usuario> usuarios = new ArrayList<>();
-		Organizador admin = new Organizador("Admin", "1234", "1234", "1234");
+		Organizador admin = new Organizador("Admin", "12345", "1234", "1234");
 		Organizadores.add(admin);
 
 		
