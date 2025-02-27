@@ -49,3 +49,19 @@ public class Usuario {
             System.out.println(nombre + " ya está apuntado a este evento.");
         }
     }
+    public void desapuntarDeEvento(int eveSelect2) {
+    	eventosInscritos.remove(eveSelect2);
+
+        }
+    
+    public void mostrarEventosInscritos() {
+        if (eventosInscritos.isEmpty()) {
+            System.out.println(nombre + " no está inscrito en ningún evento.");
+        } else {
+            System.out.println("Eventos en los que está inscrito " + nombre + ":");
+            for (int i = 0; i < eventosInscritos.size(); i++) {
+                System.out.println(i + ". " + eventosInscritos.get(i).getNombre());
+            }
+        }
+    }
+    
